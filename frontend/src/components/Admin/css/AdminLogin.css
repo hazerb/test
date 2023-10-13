@@ -1,0 +1,30 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+
+.login-input {
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  margin-left: 70px;
+}
+
+button {
+  height: 42px;
+  margin-left: 10px;
+}
+
+input {
+  height: 25px; 
+  width: 260px;
+}
+
+.input2 {
+  height: 25px; 
+  width: 300px;
+  margin-left: 5px;
+}

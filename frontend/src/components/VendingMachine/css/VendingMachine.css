@@ -1,0 +1,105 @@
+.vending-machine {
+    border: 5px solid #0080FF;
+    padding: 10px;
+    width: 500px;
+    margin: 20px auto 0;
+    background-color: #f7f7f7;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.products {
+    background-color: #e6e6e6;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+    width: 100%;
+    font-size: 20px;
+}
+
+.product-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-quantity {
+    margin-right: 0;
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.money {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.money-buttons {
+    flex-direction: column;
+}
+
+.money-buttons button {
+    margin: 5px 0;
+}
+
+button {
+    background-color: #0080FF;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.h34 {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.button3 {
+    width: 120px;
+}
+
+.purchase-button {
+    width: 480px;
+    background-color: #F94E77;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-right: 10px;
+}
+
+.money-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: -20px;
+}
+
+.button2 {
+    margin-top: 10px;
+}
+
+li {
+    margin-bottom: 10px;
+}
